@@ -4,7 +4,7 @@ A SQL data analysis project exploring the Brazilian E-Commerce Public Dataset by
 
 ## Dataset
 
-The project uses the [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), which contains information about customers, orders, products, and sales transactions.
+The project uses the [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) from Kaggle, which contains information about customers, orders, products, and sales transactions.
 
 The analysis uses five tables:
 
@@ -16,7 +16,7 @@ The analysis uses five tables:
 
 ## Analysis
 
-The project answers 19 business questions covering:
+The project answers business questions covering:
 
 - Order and customer analysis
 - Sales and revenue analysis
