@@ -1,0 +1,37 @@
+Q1. Retrieve the total number of orders placed on the e-commerce platform?
+
+Q2. Calculate the total amount generated from product sales?
+
+Q3. Determine the total number of unique customers?
+
+Q4. Calculate the average amount spent per order on products?
+
+Q5. Determine the number of orders for each order status?
+
+Q6. Determine the total amount generated from product sales for each customer state?
+
+Q7. Determine the number of orders placed in each customer state and rank the states from highest to lowest based on total orders?
+
+Q8. Determine the average product price for each customer state and rank the states from highest to lowest based on average product price?
+
+Q9. Identify the top 10 product categories by total amount generated from product sales.
+
+Q10. Identify the top 10 customers by total amount spent on products.
+
+Q11. Identify the top 10 product categories by the number of products sold.
+
+Q12. Identify all orders that were delivered after the estimated delivery date.
+
+Q13. Identify the product categories with more than 5,000 products sold.
+
+Q14. Identify products whose total freight cost exceeds 300% of their total product sales value.
+
+Q15. For each product category, calculate the total revenue including both product price and freight charges, and rank the categories from highest to lowest total revenue.
+
+Q16. Determine the average freight cost for each customer state.
+
+Q17. Determine the percentage of orders for each order status.
+
+Q18. Determine the number and percentage of repeat customers who placed more than one order.
+
+Q19. Calculate the total product sales amount for each month and rank the months from highest to lowest based on total sales.
