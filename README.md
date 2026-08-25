@@ -36,5 +36,5 @@ The project answers business questions covering:
 ## Project Files
 
 - `Olist_Database_Setup.sql` — Creates the database, tables, loads the data, and defines foreign keys.
-- `Olist_Ecom_Questions.sql` — Contains the 19 business questions.
+- `Olist_Ecom_Questions.sql` — Contains 19 business questions.
 - `Olist_SQL_Queries.sql` — Contains SQL solutions for all 19 questions.
