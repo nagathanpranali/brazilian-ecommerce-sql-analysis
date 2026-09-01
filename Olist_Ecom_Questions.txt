@@ -20,7 +20,7 @@ Q10. Identify the top 10 customers by total amount spent on products.
 
 Q11. Identify the top 10 product categories by the number of products sold.
 
-Q12. Identify all orders that were delivered after the estimated delivery date.
+Q12. Calculate the percentage of delivered orders that were delivered late.
 
 Q13. Identify the product categories with more than 5,000 products sold.
 
