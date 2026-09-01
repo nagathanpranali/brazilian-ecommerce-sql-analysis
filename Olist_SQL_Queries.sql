@@ -111,22 +111,14 @@ ORDER BY total_products DESC
 LIMIT 10;
 
 
--- Q12. Identify all orders that were delivered after the estimated delivery date.
+-- Q12. Calculate the percentage of delivered orders that were delivered late.
 
-SELECT 
-    order_id,
-    order_estimated_delivery_date,
-    order_delivered_customer_date,
-    DATEDIFF(
-        order_delivered_customer_date,
-        order_estimated_delivery_date
-    ) AS days_late
+SELECT
+SUM(CASE WHEN DATEDIFF(order_delivered_customer_date, order_estimated_delivery_date) > 0 THEN 1 ELSE 0 END) AS late_orders,
+COUNT(order_delivered_customer_date) AS total_delivered_orders,
+ROUND(SUM(CASE WHEN DATEDIFF(order_delivered_customer_date, order_estimated_delivery_date) > 0 THEN 1 ELSE 0 END) / COUNT(order_delivered_customer_date) * 100, 2) AS late_delivery_percentage
 FROM orders
-WHERE order_delivered_customer_date IS NOT NULL
-AND DATEDIFF(
-        order_delivered_customer_date,
-        order_estimated_delivery_date
-      ) > 0;
+WHERE order_delivered_customer_date IS NOT NULL;
 
 
 -- Q13. Identify the product categories with more than 5,000 products sold.
